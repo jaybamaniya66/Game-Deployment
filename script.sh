@@ -1,4 +1,5 @@
 #!/bin/bash
+#installtion of java
 sudo apt update -y
 sudo touch /etc/apt/keyrings/adoptium.asc
 sudo wget -O /etc/apt/keyrings/adoptium.asc https://packages.adoptium.net/artifactory/api/gpg/key/public
